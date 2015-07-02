@@ -7,13 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@class DetailViewController;
+#import "News.h"
 
 @interface MasterViewController : UITableViewController
-
-@property (strong, nonatomic) DetailViewController *detailViewController;
-
-
+@property (nonatomic,strong)id<News> msg;
 @end
 
